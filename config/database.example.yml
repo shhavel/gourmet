@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: gourmet_development
+  pool: 5
+  username: gourmet
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: gourmet_test
+  pool: 5
+  username: gourmet
+  password:
